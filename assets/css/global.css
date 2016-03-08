@@ -1,5 +1,5 @@
 *:not(.fa) {
-    font-family: xingothic-tc;
+    font-family: pingfang tc, xingothic-tc;
 }
 
 * {
@@ -9,4 +9,19 @@
 html, body {
 	width: 100%;
 	height: 100%;
+}
+
+
+
+
+@media (min-width: 1500px) {
+	.container {
+	    width: 1370px;
+	}
+}
+
+@media (min-width: 1800px) {
+	.container {
+	    width: 1670px;
+	}
 }

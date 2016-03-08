@@ -1,0 +1,12 @@
+#page5 {
+	background-color: #ccc;
+}
+
+.product {
+	width: 35%;
+	height: 300px;
+	background-color: #fff;
+	/*margin: 0 20px;*/
+	margin: 40px 20px 0 20px;
+	border-radius: 5px;
+}
