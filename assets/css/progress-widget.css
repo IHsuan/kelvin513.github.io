@@ -1,0 +1,13 @@
+.progress-widget {
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background: #da8292;
+	z-index: 100;
+}
+
+.for-widget {
+	height: 50px;
+	width: 100%;
+}

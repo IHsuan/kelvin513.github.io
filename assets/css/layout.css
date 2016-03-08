@@ -44,3 +44,15 @@ h4, span, p {
 	align-items: center;
 	justify-content: center;
 }
+
+.h-800 {
+	height: 800px;
+}
+
+.h-700 {
+	height: 700px;
+}
+
+.h-400 {
+	height: 400px;
+}
