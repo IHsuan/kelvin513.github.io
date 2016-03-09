@@ -11,8 +11,16 @@ html, body {
 	height: 100%;
 }
 
+.container {
+	padding: 0;
+}
 
 
+@media (min-width: 420px) {
+	.container {
+	    width: 100%;
+	}
+}
 
 @media (min-width: 1500px) {
 	.container {
@@ -24,4 +32,9 @@ html, body {
 	.container {
 	    width: 1670px;
 	}
+}
+
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: none;
 }

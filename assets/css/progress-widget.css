@@ -3,8 +3,9 @@
 	width: 100%;
 	position: fixed;
 	top: 0;
-	background: #da8292;
+	background: #fff;
 	z-index: 100;
+	opacity: 0.9;
 }
 
 .for-widget {
