@@ -18,7 +18,7 @@
 	<meta name="description" itemprop="description" content="大抓周計畫">
 	<meta name="keywords" itemprop="keywords" content="臺灣吧,大抓周,群眾集資,群眾募資">
 
-	<meta property="og:title" content="Taiwan Bar 嘉年華">
+	<meta property="og:title" content="臺灣吧大抓周計畫">
 	<meta property="og:type" content="">
 	<meta property="og:url" content="">
 	<meta property="og:image" content="">
@@ -36,6 +36,10 @@
 	<link rel="stylesheet" href="assets/css/page5.css">
 	<link rel="stylesheet" href="assets/css/page6.css">
 	<link rel="stylesheet" href="assets/css/footer.css">
+	
+	<script src="assets/js/tab.js"></script>	
+	<script src="assets/js/font.js"></script>	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 </head>
@@ -63,6 +67,23 @@
 	<div class="" id="page2">
 		<div class="container h-600">
 			<h4>介紹</h4>
+
+			<!-- Nav tabs -->
+			<ul class="nav nav-tabs flex-ha" role="tablist">
+				<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+				<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+				<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+				<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+			</ul>
+
+			<!-- Tab panes -->
+			<div class="tab-content flex-ha">
+				<div role="tabpanel" class="tab-pane pop active" id="home">1...</div>
+				<div role="tabpanel" class="tab-pane" id="profile">2...</div>
+				<div role="tabpanel" class="tab-pane" id="messages">3...</div>
+				<div role="tabpanel" class="tab-pane" id="settings">4...</div>
+			</div>
+
 		</div>
 	</div>
 
@@ -84,8 +105,8 @@
 	<!-- page 5 商品 -->
 	<div class="" id="page5">
 		<div class="h-30"></div>
-		<h1>Products</h1>
-		<div class="container flex-center flex-sa h-800">
+		<h1>大抓周計畫<br>贊助紀念品</h1>
+		<div class="container flex-center flex-sa">
 			
 			<div class="product">
 				<img src="assets/img/page5/product-1.jpg">
@@ -135,13 +156,14 @@
 				</a>
 			</div>
 		</div>
+		<div class="h-50"></div>
 	</div>
 
 	<!-- page 6 如何提案 -->
-	<div class="flex-ha" id="page6">
+	<div class="" id="page6">
 		<div class="h-600">
 			<div class="h-30"></div>
-			<h1>如何提案？</h1>
+			<h1 class="divider">如何提案？</h1>
 		</div>
 	</div>
 

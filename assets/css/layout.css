@@ -1,14 +1,15 @@
-.center {
-	text-align: center;
-}
+.center { text-align: center; }
 
-.no-padding {
-	padding: 0;
-}
+.no-padding { padding: 0; }
 
-.no-margin {
-	margin: 0;
-}
+.no-margin { margin: 0; }
+
+
+h1, h2, h3 { font-weight: 200; }
+
+h4, h5, h6, span, p { font-weight: 400; }
+
+h4, span, p { font-size: 15px; }
 
 h1, h2, h3, h4, h5, h6, span, p {
 	line-height: 1.7;
@@ -16,19 +17,6 @@ h1, h2, h3, h4, h5, h6, span, p {
 	text-align: center;
 	margin: 0;
 }
-
-h1, h2, h3 {
-	font-weight: 700;
-}
-
-h4, h5, h6, span, p {
-	font-weight: 400;
-}
-
-h4, span, p {
-	font-size: 15px;
-}
-
 
 /* flex box zone */
 .flex-va {
@@ -71,8 +59,28 @@ h4, span, p {
 .h-30  { height: 30px;  }
 .h-10  { height: 10px;  }
 
+.divider {
+    color: #5d5d5d;
+    width: 70%;
+    margin: 20px auto;
+    overflow: hidden;
+    text-align: center;
+    line-height: 1.2em;
+}
 
+.divider:before, .divider:after {
+    content: "";
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    height: 0.65em;
+    border-bottom: 1px solid #adadad;
+    margin: 0 2% 0 -55%;
+}
 
+.divider:after {
+    margin: 0 -55% 0 2%;
+}
 
 
 
