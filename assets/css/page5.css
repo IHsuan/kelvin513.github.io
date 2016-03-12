@@ -12,11 +12,11 @@
 	margin: 20px 10px 0 10px;
 	border-radius: 3px;
 	border: 2px solid #EFEFEF;
+	transition: .14s ease-in-out;
 }
 
 .product:hover {
 	border-color: #49B6D7;
-	transition: .14s;
 }
 
 .product h3 {
@@ -37,7 +37,7 @@
 	line-height: 2em;
 	background-color: #EFEFEF;
 	color: #4b4b4b;
-	transition: .14s;
+	transition: .14s ease-in-out;
 }
 
 .buy:focus, .buy:hover {

@@ -18,12 +18,6 @@ html, body {
 	padding: 0;
 }
 
-@media (min-width: 420px) {
-	.container {
-	    width: 100%;
-	}
-}
-
 @media (min-width: 1500px) {
 	.container {
 	    width: 1370px;
@@ -35,6 +29,11 @@ html, body {
 	    width: 1670px;
 	}
 }
+/*@media (min-width: 420px) {
+	.container {
+	    width: 100%;
+	}
+}*/
 
 a:focus, a:hover {
     color: #23527c;
