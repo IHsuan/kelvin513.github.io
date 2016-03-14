@@ -12,13 +12,19 @@
 	margin-bottom: 10%;
 }
 
+._page1_icon {
+	width: 20%;
+    margin-top: 4%;
+}
+
 .animals {
 	/*position: relative;*/
 	position: absolute;
 	bottom: -12%;
 }
 
+
+
 .animals img {
 	width: 19%;
-	bottom: 0;
 }

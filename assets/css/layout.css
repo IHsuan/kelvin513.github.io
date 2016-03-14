@@ -1,14 +1,11 @@
+/* padding / margin */
 .center { text-align: center; }
-
 .no-padding { padding: 0; }
-
 .no-margin { margin: 0; }
 
-
+/* layout */
 h1, h2, h3 { font-weight: 200; }
-
 h4, h5, h6, span, p { font-weight: 400; }
-
 h4, span, p { font-size: 15px; }
 
 h1, h2, h3, h4, h5, h6, span, p {
@@ -18,10 +15,8 @@ h1, h2, h3, h4, h5, h6, span, p {
 	margin: 0;
 }
 
-/* flex box zone */
-.flex {
-	display: flex;
-}
+/* flex-box zone */
+.flex { display: flex; }
 
 .flex-va {
 	display: flex;
@@ -40,8 +35,14 @@ h1, h2, h3, h4, h5, h6, span, p {
 }
 
 .flex-sa {
-	justufy-content: space-around;
+	display: flex;
+	justify-content: space-around;
 	align-items: flex-start;
+}
+
+.flex-bt {
+	display: flex;
+	justify-content: space-between;
 }
 
 .flex-center {
@@ -55,6 +56,7 @@ h1, h2, h3, h4, h5, h6, span, p {
 .flex-grow-2 { flex-grow: 2; }
 .flex-grow-3 { flex-grow: 3; }
 
+/* block zone */
 .h-800 { height: 800px; }
 .h-700 { height: 700px; }
 .h-600 { height: 600px; }
@@ -67,6 +69,7 @@ h1, h2, h3, h4, h5, h6, span, p {
 .h-30  { height: 30px;  }
 .h-10  { height: 10px;  }
 
+/* divider */
 .divider {
     color: #5d5d5d;
     width: 70%;
@@ -75,7 +78,6 @@ h1, h2, h3, h4, h5, h6, span, p {
     text-align: center;
     line-height: 1.2em;
 }
-
 .divider:before, .divider:after {
     content: "";
     vertical-align: top;
@@ -85,10 +87,7 @@ h1, h2, h3, h4, h5, h6, span, p {
     border-bottom: 1px solid #adadad;
     margin: 0 2% 0 -55%;
 }
-
-.divider:after {
-    margin: 0 -55% 0 2%;
-}
+.divider:after { margin: 0 -55% 0 2%; }
 
 
 

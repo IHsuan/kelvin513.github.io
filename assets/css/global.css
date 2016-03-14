@@ -19,18 +19,12 @@ html, body {
 }
 
 @media (min-width: 1500px) {
-	.container {
-	    width: 1370px;
-	}
+	.container { width: 1370px;	}
 }
 
 @media (min-width: 1800px) {
-	.container {
-	    width: 1670px;
-	}
-	body {
-		background-size: 1.6%!important;
-	}
+	.container { width: 1670px; }
+	body { background-size: 1.6%!important;	}
 }
 /*@media (min-width: 420px) {
 	.container {
