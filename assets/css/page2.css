@@ -19,8 +19,14 @@
     opacity: 1;
 }
 
-
-
 .tab-inner-content img{
     width: 100%;
+}
+
+.answer img {
+    /*width: 200px;*/
+}
+
+.nav-tabs img {
+    width: 100px;
 }

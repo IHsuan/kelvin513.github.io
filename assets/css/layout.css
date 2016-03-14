@@ -19,6 +19,10 @@ h1, h2, h3, h4, h5, h6, span, p {
 }
 
 /* flex box zone */
+.flex {
+	display: flex;
+}
+
 .flex-va {
 	display: flex;
 	align-items: center;
@@ -46,6 +50,10 @@ h1, h2, h3, h4, h5, h6, span, p {
 	justify-content: center;
 	/*align-content: flex-start;*/
 }
+
+.flex-grow-1 { flex-grow: 1; }
+.flex-grow-2 { flex-grow: 2; }
+.flex-grow-3 { flex-grow: 3; }
 
 .h-800 { height: 800px; }
 .h-700 { height: 700px; }
