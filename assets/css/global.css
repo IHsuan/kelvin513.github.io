@@ -28,6 +28,9 @@ html, body {
 	.container {
 	    width: 1670px;
 	}
+	body {
+		background-size: 1.6%!important;
+	}
 }
 /*@media (min-width: 420px) {
 	.container {
@@ -38,4 +41,9 @@ html, body {
 a:focus, a:hover {
     color: #23527c;
     text-decoration: none;
+}
+
+body {
+	background: url("../img/bg.svg");
+    background-repeat: repeat;
 }
