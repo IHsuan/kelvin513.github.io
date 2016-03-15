@@ -27,9 +27,7 @@ html, body {
 	body { background-size: 1.6%!important;	}
 }
 /*@media (min-width: 420px) {
-	.container {
-	    width: 100%;
-	}
+	.container { width: 100%; }
 }*/
 
 a:focus, a:hover {

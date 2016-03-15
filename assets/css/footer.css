@@ -1,3 +1,32 @@
 footer {
 	background-color: #2b2b2b;
+	overflow: hidden;
+}
+
+.copyright {
+	color: #82888a;
+}
+
+._footer_happy {
+	width: 100px;
+	position: relative;
+	bottom: 30px;
+	left: -40%;
+}
+
+footer h5 {
+	font-size: 16px;
+	font-weight: 500;
+	color: #eee;
+}
+
+footer a i.fa {
+	font-size: 28px;
+	color: #f4f4f4;
+	transition: 0.2s ease-in-out;
+	margin: 5.5px;
+}
+
+footer a i.fa:hover {
+	color: #a6a6a6;
 }

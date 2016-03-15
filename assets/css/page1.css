@@ -23,7 +23,9 @@
 	bottom: -12%;
 }
 
-
+@media (max-width: 420px) {
+	.animals { bottom: 5%; }
+}
 
 .animals img {
 	width: 19%;
