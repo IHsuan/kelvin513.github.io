@@ -2,10 +2,6 @@
 	
 }
 
-._souvenir_h1 {
-	line-height: 1.2;
-}
-
 .product {
 	width: 308px;
 	flex-basis: 250px;
@@ -55,3 +51,6 @@
 	color: #fff;
 }
 
+.h5 {
+	font-size: 18px;
+}

@@ -7,12 +7,17 @@
 h1, h2, h3 { font-weight: 400; }
 h4, h5, h6, span, p { font-weight: 400; }
 h4, span, p { font-size: 15px; }
+h5 { font-size: 18px; }
 
 h1, h2, h3, h4, h5, h6, span, p {
 	line-height: 1.7;
 	color: #535353;
 	text-align: center;
 	margin: 0;
+}
+
+.h1_is_break {
+	line-height: 1.2;
 }
 
 /* flex-box zone */
@@ -43,6 +48,10 @@ h1, h2, h3, h4, h5, h6, span, p {
 .flex-bt {
 	display: flex;
 	justify-content: space-between;
+}
+
+.flex-top {
+	align-items: flex-start;
 }
 
 .flex-center {

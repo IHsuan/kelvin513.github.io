@@ -5,7 +5,7 @@
 .show {
 	width: 18%;
 	background: #fff;
-	height: 440px;
+	/*height: 440px;*/
 }
 
 .show img {
@@ -19,7 +19,7 @@
 
 ._show_content {
 	margin: 15px 0 20px 0;
-	padding: 0 20px;
+	padding: 0 15px;
 }
 
 
