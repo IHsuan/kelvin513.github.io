@@ -38,27 +38,27 @@
 
 .nav-tabs { border: none; }
 .nav-tabs>li>a { 
-    border: 1px solid #343c48;
+    border: 1px solid #3A3A3A;
     background: #fff;
-    color: #343c48;
+    color: #3A3A3A;
     font-size: 18px;
     border-radius: 0;
     margin-right: 0;
     -webkit-transition: 0.3s ;
 }
 .nav-tabs>li>a:hover {
-    border-color: #343c48;
+    border-color: #3A3A3A;
 }
 
 .nav>li>a:focus, .nav>li>a:hover {
     background-color: #fff;
 }
 
-.nav-tabs>li:first-child a { border-radius: 7px 0 0 7px; }
-.nav-tabs>li:last-child a { border-radius: 0 7px 7px 0; }
+.nav-tabs>li:first-child a { border-radius: 4px 0 0 4px; }
+.nav-tabs>li:last-child a { border-radius: 0 4px 4px 0; }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-    background-color: #343c48;
-    border: 1px solid #343c48;
+    background-color: #3A3A3A;
+    border: 1px solid #3A3A3A;
     color: #fff;
 }
 
@@ -84,7 +84,105 @@
   align-items: stretch;
 }
 
-
 .flex-item:nth-of-type(1) { flex-grow: 1; }
 .flex-item:nth-of-type(2) { flex-grow: 3; }
 .flex-item:nth-of-type(3) { flex-grow: 1; }
+
+
+/*conversation*/
+ul.ChatLog {
+  list-style: none;
+}
+
+.ChatLog {
+  /*max-width: 40em;*/
+  margin: 0 auto;
+}
+.ChatLog .ChatLog__entry {
+  margin: 1em;
+}
+
+.ChatLog__entry {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  max-width: 100%;
+}
+
+.ChatLog__entry.ChatLog__entry_mine {
+  flex-direction: row-reverse;  
+}
+
+.ChatLog__avatar {
+  flex-shrink: 0;
+  flex-grow: 1;
+  z-index: 1;
+  /*height: 100%;*/
+  width: 20%;
+  max-width: 220px;
+}
+
+.ChatLog__entry.ChatLog__entry_mine 
+.ChatLog__avatar {
+  display: block;
+}
+
+.ChatLog__entry .ChatLog__message {
+  position: relative;
+  margin: 0 10px 0 10px;
+  width: 100%;
+}
+
+.ChatLog__entry .ChatLog__message::before {
+  position: absolute;
+  right: auto;
+  top: .6em;
+  left: -11px;
+  height: 0;
+  content: '';
+  border: 6px solid transparent;
+  border-right-color: #ddd;
+  z-index: 2;
+}
+
+.ChatLog__entry.ChatLog__entry_mine .ChatLog__message::before {
+  right: -11px;
+  top: .6em;
+  left: auto;
+  border: 6px solid transparent;
+  border-left-color: #F1F1F1;
+}
+
+.ChatLog__message {
+  background-color: #ddd;
+  padding: 1em;
+  border-radius: 4px;
+  max-width: 100%;
+  text-align: left;
+  flex-grow: 3;
+}
+
+.ChatLog__entry.ChatLog__entry_mine .ChatLog__message {
+  border: 1px solid #F1F1F1;
+  background-color: #F1F1F1;
+  color: #535353;
+}
+
+@media (max-width: 420px) {
+    ._a_back-us {
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+    }
+    ._ruler_anchor {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
