@@ -20,8 +20,11 @@
 .animals {
 	/*position: relative;*/
 	position: absolute;
-	bottom: -12%;
+	bottom: -10%;
 	z-index: -1;
+	align-items: flex-end;
+	justify-content: space-around;
+	left: 0%;
 }
 
 @media (max-width: 420px) {
