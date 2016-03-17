@@ -39,6 +39,7 @@
 .nav-tabs { border: none; }
 .nav-tabs>li>a { 
     border: 1px solid #3A3A3A;
+    border-width: 2px 1px 2px 1px;
     background: #fff;
     color: #3A3A3A;
     font-size: 18px;
@@ -54,11 +55,17 @@
     background-color: #fff;
 }
 
-.nav-tabs>li:first-child a { border-radius: 4px 0 0 4px; }
-.nav-tabs>li:last-child a { border-radius: 0 4px 4px 0; }
+.nav-tabs>li:first-child a, .nav-tabs>li.active:first-child a, .nav-tabs>li:first-child.active>a:focus { 
+    border-radius: 4px 0 0 4px; border-width: 2px 1px 2px 2px; 
+}
+.nav-tabs>li:last-child a, .nav-tabs>li.active:last-child a, .nav-tabs>li:last-child.active>a:focus {
+    border-radius: 0 4px 4px 0; border-width: 2px 2px 2px 1px; 
+}
+
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     background-color: #3A3A3A;
     border: 1px solid #3A3A3A;
+    border-width: 2px 1px 2px 1px;
     color: #fff;
 }
 
