@@ -1,3 +1,11 @@
 #page6 {
-	
+	background: #f4f4f4;
+}
+
+.join-form input {
+	outline: none;
+}
+
+.join-form li {
+	display: block;
 }

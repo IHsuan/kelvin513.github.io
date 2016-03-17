@@ -1,16 +1,20 @@
 #page4 {
-	background: #fff;
+	background: #f4f4f4;
 }
 
 .show {
-	width: 18%;
+	width: 26%;
 	background: #fff;
-	/*height: 440px;*/
+	text-align: center;
+	margin: 0 15px;
+	border-radius: 3px;
 }
 
 .show img {
-	width: 100%;
+	width: 50%;
 	border-radius: 1px 1px 0 0;
+	margin-bottom: -5px;
+	max-width: 200px;
 }
 
 .show h3 {
@@ -18,10 +22,27 @@
 }
 
 ._show_content {
-	margin: 15px 0 20px 0;
+	margin: 0 0 15px 0;
 	padding: 0 15px;
 }
 
+.show a ._show_btn {
+	border-radius: 3px;
+	color: #E13745;
+	padding: 10px 25px;
+	font-size: 15px;
+	background: #fff;	
+	border: 1px solid #d0d0d0;
+	width: 150px;
+    margin: 0 auto -20px auto;
+    display: inline-block;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -moz-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -webkit-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -ms-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
-
-
+}
+.show a:hover ._show_btn {
+	background: #e6e6e6;
+	color: #535353;
+}
