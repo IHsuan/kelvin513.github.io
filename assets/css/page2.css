@@ -207,6 +207,15 @@ ul.ChatLog {
   color: #535353;
 }
 
+
+.ChatLog .margin-top--115 { margin-top: -115px; }
+.ChatLog .margin-top--50 { margin-top: -50px; }
+
+.tab-content {
+    max-width: 1069px;
+    margin: 0 auto;
+}
+
 @media (max-width: 420px) {
     .none {
         display: none!important;
@@ -224,15 +233,7 @@ ul.ChatLog {
     .ChatLog__message {
         padding: 0.4em;
     }
+
+    .ChatLog .margin-top--115 { margin-top: 0; }
+    .ChatLog .margin-top--50 { margin-top: 0; }
 }
-
-.ChatLog .margin-top--115 { margin-top: -115px; }
-.ChatLog .margin-top--50 { margin-top: -50px; }
-
-.tab-content {
-    max-width: 1069px;
-    margin: 0 auto;
-}
-
-
-

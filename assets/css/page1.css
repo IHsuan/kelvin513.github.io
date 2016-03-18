@@ -28,9 +28,16 @@
 }
 
 @media (max-width: 420px) {
-	.animals { bottom: 5%; }
+	.animals { bottom: 5%; left:0; }
+	._page1_icon_sm { display: block; }
+	._page1_icon_lg { display: none; }
 }
 
 .animals img {
 	width: 19%;
+}
+
+@media (min-device-width:420px) {
+	._page1_icon_sm { display: none; }
+	._page1_icon_lg { display: block; }
 }

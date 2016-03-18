@@ -196,10 +196,10 @@ Main components
 }
 .cd-timeline-content h2 {
   color: #535353;
+  font-size: 21px;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-  font-size: 13px;
-  font-size: 0.8125rem;
+  font-size: 15px;
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
