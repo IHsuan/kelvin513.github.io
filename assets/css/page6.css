@@ -6,6 +6,30 @@
 	outline: none;
 }
 
+.join-form input[type="text"], .join-form input[type="number"] {
+  display: block;
+}
+
+.join-form ul {
+  padding: 0;
+}
+
 .join-form li {
 	display: block;
 }
+
+.join-form li input[type="text"] {
+  display: inline;
+}
+
+.join-form textarea {
+  resize: none;
+  display: block;
+  width: 80%;
+  height: 120px;
+}
+
+.join-form .ss-form-question, .join-form .ss-navigate {
+  margin: 15px 10px;
+}
+
