@@ -216,7 +216,7 @@ ul.ChatLog {
     margin: 0 auto;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 426px) {
     .none {
         display: none!important;
     }

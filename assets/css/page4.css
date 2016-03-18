@@ -48,7 +48,7 @@
 	color: #535353;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 426px) {
 	.show a ._show_btn {
 		display: none;
 	}

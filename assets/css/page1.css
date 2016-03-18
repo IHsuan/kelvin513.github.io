@@ -27,17 +27,29 @@
 	left: 4%;
 }
 
-@media (max-width: 420px) {
-	.animals { bottom: 5%; left:0; }
-	._page1_icon_sm { display: block; }
-	._page1_icon_lg { display: none; }
-}
-
 .animals img {
 	width: 19%;
 }
 
-@media (min-device-width:420px) {
-	._page1_icon_sm { display: none; }
-	._page1_icon_lg { display: block; }
+@media (max-width: 768px) {
+	.animals {
+		bottom: -8%;
+	}
 }
+
+@media (max-width: 426px) {
+	.animals { bottom: 5%; left:0; }
+	._page1_icon_top_sm { display: block; }
+	._page1_icon_top_lg { display: none; }
+	._page1_icon_bottom_sm { display: block; }
+	._page1_icon_bottom_lg { display: none; }
+}
+
+@media (min-device-width:426px) {
+	._page1_icon_top_sm { display: none; }
+	._page1_icon_top_lg { display: block; }
+	._page1_icon_bottom_sm { display: none; }
+	._page1_icon_bottom_lg { display: block; }
+}
+
+
