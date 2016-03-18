@@ -1,5 +1,5 @@
 #page2 {
-    background: #fff;
+    background: #eee;
 }
 
 .pop {
@@ -189,7 +189,7 @@ ul.ChatLog {
   top: 1.5em;
   left: auto;
   border: 10px solid transparent;
-  border-left-color: #F1F1F1;
+  border-left-color: #D4D4D4;
 }
 
 .ChatLog__message {
@@ -202,8 +202,8 @@ ul.ChatLog {
 }
 
 .ChatLog__entry.ChatLog__entry_mine .ChatLog__message {
-  border: 1px solid #F1F1F1;
-  background-color: #F1F1F1;
+  border: 1px solid #D4D4D4;
+  background-color: #D4D4D4;
   color: #535353;
 }
 
@@ -214,6 +214,15 @@ ul.ChatLog {
 
     .ChatLog__entry {
         align-items: flex-start;
+    }
+
+    .nav>li>a {
+        padding: 5px;
+        font-size: 13px;
+    }
+
+    .ChatLog__message {
+        padding: 0.4em;
     }
 }
 
