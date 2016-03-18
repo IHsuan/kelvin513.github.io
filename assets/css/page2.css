@@ -234,6 +234,9 @@ ul.ChatLog {
         padding: 0.4em;
     }
 
+}
+
+@media (max-width: 1024px) {
     .ChatLog .margin-top--115 { margin-top: 0; }
-    .ChatLog .margin-top--50 { margin-top: 0; }
+    .ChatLog .margin-top--50 { margin-top: 0; }    
 }

@@ -1,45 +1,19 @@
-// Declare the flexboxDemoApp module and its dependency 'ngMaterial'
-var app = angular.module('flexboxDemoApp', ['ngMaterial']);
-// Declare the AppCtrl controller
-app
-.config(['$mdThemingProvider', function ($mdThemingProvider) {
-  $mdThemingProvider
-    .theme('default')
-    .accentPalette('amber', {
-      default: '700'
+jQuery(document).ready(function($){
+  var $timeline_block = $('.cd-timeline-block');
+
+  //hide timeline blocks which are outside the viewport
+  $timeline_block.each(function(){
+    if($(this).offset().top > $(window).scrollTop()+$(window).height()*0.75) {
+      $(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
+    }
+  });
+
+  //on scolling, show/animate timeline blocks when enter the viewport
+  $(window).on('scroll', function(){
+    $timeline_block.each(function(){
+      if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) {
+        $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+      }
     });
-}])
-.controller('AppCtrl', ['$scope', function ($scope) {
-  $scope.parent = {
-    flexDirection:  'row',
-    flexWrap:       'nowrap',
-    justifyContent: 'flex-start',
-    alignItems:     'stretch',
-    alignContent:   'stretch'
-  };
-
-  $scope.children_width = 12; // %
-
-  $scope.children  = [];
-
-  var addChild = function (order, flexGrow, flexShrink, flexBasis, alignSelf) {
-    $scope.children.push({
-      order:      order      || 0,
-      flexGrow:   flexGrow   || 0,
-      flexShrink: flexShrink || 1,
-      flexBasis:  flexBasis  || 'auto',
-      alignSelf:  alignSelf  || 'auto'
-    });
-  };
-  var removeChild = function (index) {
-    $scope.children.splice(index, 1);
-  };
-
-  $scope.addChild    = addChild;
-  $scope.removeChild = removeChild;
-
-  for (var i = 0; i < 5; i++) {
-    addChild();
-  }
-    
-}]);
+  });
+});
