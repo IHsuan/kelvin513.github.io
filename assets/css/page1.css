@@ -20,7 +20,7 @@
 .animals {
 	/*position: relative;*/
 	position: absolute;
-	bottom: -10%;
+	bottom: -11%;
 	z-index: -1;
 	align-items: flex-end;
 	justify-content: space-around;
