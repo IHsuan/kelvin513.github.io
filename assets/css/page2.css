@@ -12,15 +12,17 @@
     -moz-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     -webkit-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     -ms-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: none;
 }
 
 .pop-active{
     transform: scale(1);
     opacity: 1;
+    display: block;
 }
 
 .tab-inner-content img{
-    width: 100%;
+    /*width: 100%;*/
 }
 
 .answer img {
@@ -216,7 +218,12 @@ ul.ChatLog {
 }
 
 .ChatLog .margin-top--115 { margin-top: -115px; }
+.ChatLog .margin-top--50 { margin-top: -50px; }
 
+.tab-content {
+    max-width: 1069px;
+    margin: 0 auto;
+}
 
 
 
