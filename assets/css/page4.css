@@ -61,20 +61,24 @@
 	.flex-md {
 		flex-wrap: wrap;
 	}
+	.show {
+		margin: 10px 0 0 0;
+	}
+	#page4 .h-30 {
+		height: 0;
+	}
 }
 
 @media (max-width: 768px) {
 	.show {
 		width: 30%;
-		margin: 10px 0 0 0;
+		/*margin: 10px 0 0 0;*/
 		border-radius: 0;
 	}
 	._show_content h3 {
 		font-size: 19px;
 	}
-	#page4 .h-30 {
-		height: 0;
-	}
+	
 }
 
 
