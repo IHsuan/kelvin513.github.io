@@ -90,6 +90,22 @@
         line-height: 45px;
     }
     ._ruler_anchor {
-        width: 100%;
+        margin-top: -11px;
     }
 }
+
+@media (max-width: 375px) {
+    ._ruler_anchor {
+        margin-top: -13px;
+    }
+}
+
+@media (max-width: 320px) {
+    ._ruler_anchor {
+        margin-top: -16px;
+    }
+}
+
+
+
+
