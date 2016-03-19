@@ -54,6 +54,12 @@
 	color: #535353;
 }
 
+@media (max-width: 375px) {
+	.show {
+		flex-basis: 305px;
+	}
+}
+
 @media (max-width: 426px) {
 	.show a ._show_btn {
 		display: none;
@@ -78,7 +84,6 @@
 	._show_content h3 {
 		font-size: 19px;
 	}
-	
 }
 
 
