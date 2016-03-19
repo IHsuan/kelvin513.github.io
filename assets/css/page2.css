@@ -21,7 +21,7 @@
     display: block;
 }
 
-.tab-inner-content img{
+.chat-tab-inner-content img{
     /*width: 100%;*/
 }
 
@@ -136,9 +136,17 @@ ul.ChatLog {
   /*max-width: 40em;*/
   margin: 0 auto;
   padding: 0;
+  position: absolute;
+  display: block;
+  width: 100%;
 }
 .ChatLog .ChatLog__entry {
   margin: 1em;
+}
+
+.chat-tab-content {
+  height: 450px;
+  position: relative;
 }
 
 .ChatLog__entry {
