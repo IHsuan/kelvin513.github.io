@@ -108,5 +108,5 @@ hr {
 }
 .divider:after { margin: 0 -55% 0 2%; }
 
-
+.pointer { cursor: pointer; }
 
