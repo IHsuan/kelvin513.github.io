@@ -216,6 +216,7 @@ ul.ChatLog {
 }
 
 /*blue*/
+<<<<<<< 41a21b35957ed1d3bbe4056d1d1bf62758e0ce43
 /*.ChatLog__entry.ChatLog__entry_mine .blue { background-color: #C1CBDB; border: 1px solid #C1CBDB; }
 .ChatLog__entry.ChatLog__entry_mine .blue::before { border-left-color: #C1CBDB; }*/
 /*red*/
@@ -227,6 +228,19 @@ ul.ChatLog {
 /*white*/
 /*.ChatLog__entry.ChatLog__entry_mine .white { background-color: #fff; border: 1px solid #fff; }
 .ChatLog__entry.ChatLog__entry_mine .white::before { border-left-color: #fff; }*/
+=======
+.ChatLog__entry.ChatLog__entry_mine .blue { background-color: #C1CBDB; border: 1px solid #C1CBDB; }
+.ChatLog__entry.ChatLog__entry_mine .blue::before { border-left-color: #C1CBDB; }
+/*red*/
+.ChatLog__entry.ChatLog__entry_mine .red { background-color: #E4C8CC; border: 1px solid #E4C8CC; }
+.ChatLog__entry.ChatLog__entry_mine .red::before { border-left-color: #E4C8CC; }
+/*yellow*/
+.ChatLog__entry.ChatLog__entry_mine .yellow { background-color: #E7DCCF; border: 1px solid #E7DCCF; }
+.ChatLog__entry.ChatLog__entry_mine .yellow::before { border-left-color: #E7DCCF; }
+/*white*/
+.ChatLog__entry.ChatLog__entry_mine .white { background-color: #fff; border: 1px solid #fff; }
+.ChatLog__entry.ChatLog__entry_mine .white::before { border-left-color: #fff; }
+>>>>>>> tab update color
 
 .ChatLog .margin-top--115 { margin-top: -115px; }
 .ChatLog .margin-top--50 { margin-top: -50px; }
