@@ -240,6 +240,7 @@ ul.ChatLog {
     .nav>li>a {
         padding: 5px;
         font-size: 13px;
+        min-height: 50px;
     }
 
     .ChatLog__message {
@@ -252,3 +253,11 @@ ul.ChatLog {
     .ChatLog .margin-top--115 { margin-top: 0; }
     .ChatLog .margin-top--50 { margin-top: 0; }    
 }
+
+@media (max-width: 768px) {
+    .nav>li>a {
+        padding: 10px 2px;
+    }
+}
+
+    
