@@ -2,7 +2,7 @@
 	background: #f4f4f4;
 }
 
-.join-form input {
+.join-form input, .join-form textarea {
 	outline: none;
 }
 
