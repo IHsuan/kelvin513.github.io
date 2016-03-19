@@ -35,7 +35,7 @@
   position: absolute;
   top: 0;
   left: 18px;
-  height: 94%;
+  height: 93%;
   width: 4px;
   background: #eee;
 }
@@ -97,7 +97,7 @@
   margin-top: -25px;
 }
 .cd-timeline-img.cd-catch { background: #fff; }
-.cd-timeline-img.cd-dot { background: #1d1d1d; }
+.cd-timeline-img.cd-dot { background: #535353; }
 .cd-timeline-img.cd-now { background: #FF4252; }
 .timeline-now { color: #FF4252;}
 

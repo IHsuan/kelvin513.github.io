@@ -9,7 +9,6 @@
 	text-align: center;
 	margin: 0 15px;
 	border-radius: 3px;
-	flex-basis: 210px;
 }
 
 .show img {
@@ -54,12 +53,6 @@
 	color: #535353;
 }
 
-@media (max-width: 375px) {
-	.show {
-		flex-basis: 305px;
-	}
-}
-
 @media (max-width: 426px) {
 	.show a ._show_btn {
 		display: none;
@@ -69,9 +62,16 @@
 	}
 	.show {
 		margin: 10px 0 0 0;
+	    flex-basis: 210px;
 	}
 	#page4 .h-30 {
 		height: 0;
+	}
+}
+
+@media (max-width: 375px) {
+	.show {
+		flex-basis: 305px;
 	}
 }
 

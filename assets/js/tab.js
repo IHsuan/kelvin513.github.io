@@ -9,7 +9,7 @@ $(window).load(function(){
 		chat = $(this).attr('href');
 		setTimeout(function(){
 			$(".ChatLog__entry").removeClass('pop-active');
-			$(chat).children().addClass('pop-active');;
+			$(chat).children().addClass('pop-active');
 		},100);
 	});
 
