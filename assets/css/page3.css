@@ -96,12 +96,11 @@
   margin-left: -25px;
   margin-top: -25px;
 }
-.cd-timeline-img.cd-catch {
-  background: #fff;
-}
-.cd-timeline-img.cd-dot {
-  background: #1d1d1d;
-}
+.cd-timeline-img.cd-catch { background: #fff; }
+.cd-timeline-img.cd-dot { background: #1d1d1d; }
+.cd-timeline-img.cd-now { background: #FF4252; }
+.timeline-now { color: #FF4252;}
+
 .cd-timeline-img.cd-location {
   background: #1d1d1d;
   box-shadow: 0 0 0 4px #ffffff;
