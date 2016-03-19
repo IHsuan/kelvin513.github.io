@@ -259,6 +259,12 @@
   .cd-timeline-content .cd-read-more {
     float: left;
   }
+
+  .cd-timeline-content img {
+	width: 50px;
+	display: inline-block;
+  }
+
   .cd-timeline-content .cd-date {
     position: absolute;
     width: 100%;
