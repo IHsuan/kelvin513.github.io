@@ -72,9 +72,7 @@
 	}
 	.product {
 		flex-basis: 200px;
-	}
-	._product_content h3 {
-		font-size: 19px;
+		margin-top: 20px
 	}
 
 	.buy, .buy {
@@ -82,4 +80,29 @@
 	    background-color: #4D98D1;
 		outline: none;
 	}
+
+	#page5 .h-30 { height: 0; }
+	#page5 .h-80 { height: 30px; }
+}
+
+@media (max-width: 768px) {
+	._product_content h3 {
+		font-size: 19px;
+	}
+	.buy {
+		font-size: 15px;
+	}
+}
+
+.limit {
+	background: #FF4252;
+	padding: 5px 10px;
+	color: #fff;
+	border-radius: 3px;
+	font-size: 18px;
+	position: relative;
+}
+
+.product_parent .product .bird {
+    margin-top: -10px;
 }
