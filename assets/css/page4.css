@@ -2,12 +2,14 @@
 	background: #f4f4f4;
 }
 
+/*節目介紹*/
 .show {
 	width: 26%;
 	background: #fff;
 	text-align: center;
 	margin: 0 15px;
 	border-radius: 3px;
+	flex-basis: 210px;
 }
 
 .show img {
@@ -24,6 +26,10 @@
 ._show_content {
 	margin: 0 0 15px 0;
 	padding: 0 15px;
+}
+
+._show_content_long {
+	margin-bottom: 40px;
 }
 
 .show a ._show_btn {
@@ -52,4 +58,26 @@
 	.show a ._show_btn {
 		display: none;
 	}
+	.flex-md {
+		flex-wrap: wrap;
+	}
 }
+
+@media (max-width: 768px) {
+	.show {
+		width: 30%;
+		margin: 10px 0 0 0;
+		border-radius: 0;
+	}
+	._show_content h3 {
+		font-size: 19px;
+	}
+	#page4 .h-30 {
+		height: 0;
+	}
+}
+
+
+
+
+
