@@ -39,7 +39,7 @@
 	background: #fff;	
 	border: 1px solid #d0d0d0;
 	width: 150px;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 30px auto;
     display: inline-block;
     transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     -moz-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -84,6 +84,7 @@
 	._show_content h3 {
 		font-size: 19px;
 	}
+	/*.you-do-it { height: 400px;}*/
 }
 
 
@@ -100,6 +101,19 @@
 	background: #4D98D1;
 }
 
+.popular {
+	margin-bottom: 20px;
+    color: #ACACAC;
+}
 
+.popular i {
+	color: #FF6975;
+}
 
-
+@media (min-width: 1024px) {
+    .you-do-it { height: 420px;}
+}
+@media (min-width: 2560px) {
+    .you-do-it { height: 470px;}
+    ._you-do-it_content { margin-bottom: 45px; }
+}
