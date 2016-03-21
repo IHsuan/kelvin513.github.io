@@ -18,19 +18,19 @@ $(function(){
     for (var i=0; i<4 ; i++) {
       console.log(votes[i][0]);
       console.log(votes[i][1]);
-      if (votes[i][1] > 100) {
-        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i>");
-      } else if (votes[i][1] > 200) {
-        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i>");
-        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i>");
+      if (votes[i][1] > 400) {
+        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i> ");
+        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i> ");
+        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i> ");
+        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i> ");
       } else if (votes[i][1] > 300) {
-        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i>");
-        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i>");
-        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i>");
-      } else if (votes[i][1] > 400) {
-        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i>");
-        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i>");
-        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i>");
+        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i> ");
+        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i> ");
+        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i> ");
+      } else if (votes[i][1] > 200) {
+        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i> ");
+        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i> ");
+      } else if (votes[i][1] > 100) {
         $("#"+votes[i][0]).append("<i class='fa fa-heart'></i>");
       }
     }
