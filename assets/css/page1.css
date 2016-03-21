@@ -22,8 +22,13 @@
 	position: absolute;
 	bottom: -11%;
 	z-index: -1;
-	align-items: flex-end;
-	justify-content: space-around;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	    -ms-flex-align: end;
+	        align-items: flex-end;
+	-webkit-justify-content: space-around;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
 	left: 4%;
 }
 
@@ -48,7 +53,10 @@
 	    margin: 12% 0;
 	}
 	.flex-bt {
-	    justify-content: center;
+	    -webkit-box-pack: center;
+	    -webkit-justify-content: center;
+	        -ms-flex-pack: center;
+	            justify-content: center;
 	}
 	.logo {
 	    width: 70%;
@@ -65,30 +73,57 @@
 }
 
 .animals-animation-1 {
-	transform: translateY(38%);
-    animation: yellow-cat .5s cubic-bezier(0, 0.39, 0.51, 2.16) 1.1s 1 normal forwards;
+	-webkit-transform: translateY(38%);
+	    -ms-transform: translateY(38%);
+	        transform: translateY(38%);
+    -webkit-animation: yellow-cat .5s cubic-bezier(0, 0.39, 0.51, 2.16) 1.1s 1 normal forwards;
+            animation: yellow-cat .5s cubic-bezier(0, 0.39, 0.51, 2.16) 1.1s 1 normal forwards;
 }
 .animals-animation-2 {
-	transform: translateY(38%);
-    animation: yellow-cat .5s cubic-bezier(0, 0.39, 0.51, 2.16) 1.3s 1 normal forwards;
+	-webkit-transform: translateY(38%);
+	    -ms-transform: translateY(38%);
+	        transform: translateY(38%);
+    -webkit-animation: yellow-cat .5s cubic-bezier(0, 0.39, 0.51, 2.16) 1.3s 1 normal forwards;
+            animation: yellow-cat .5s cubic-bezier(0, 0.39, 0.51, 2.16) 1.3s 1 normal forwards;
 }
 .animals-animation-3 {
-	transform: translateY(38%);
-    animation: yellow-cat .5s cubic-bezier(0, 0.39, 0.51, 2.16) 1.2s 1 normal forwards;
+	-webkit-transform: translateY(38%);
+	    -ms-transform: translateY(38%);
+	        transform: translateY(38%);
+    -webkit-animation: yellow-cat .5s cubic-bezier(0, 0.39, 0.51, 2.16) 1.2s 1 normal forwards;
+            animation: yellow-cat .5s cubic-bezier(0, 0.39, 0.51, 2.16) 1.2s 1 normal forwards;
 }
 .animals-animation-4 {
-	transform: translateY(38%);
-    animation: yellow-cat .5s cubic-bezier(0, 0.39, 0.51, 2.16) 1.4s 1 normal forwards;
+	-webkit-transform: translateY(38%);
+	    -ms-transform: translateY(38%);
+	        transform: translateY(38%);
+    -webkit-animation: yellow-cat .5s cubic-bezier(0, 0.39, 0.51, 2.16) 1.4s 1 normal forwards;
+            animation: yellow-cat .5s cubic-bezier(0, 0.39, 0.51, 2.16) 1.4s 1 normal forwards;
 }
 .animals-animation-5 {
-	transform: translateY(38%);
-    animation: yellow-cat .5s cubic-bezier(0, 0.39, 0.51, 2.16) 1s 1 normal forwards;
+	-webkit-transform: translateY(38%);
+	    -ms-transform: translateY(38%);
+	        transform: translateY(38%);
+    -webkit-animation: yellow-cat .5s cubic-bezier(0, 0.39, 0.51, 2.16) 1s 1 normal forwards;
+            animation: yellow-cat .5s cubic-bezier(0, 0.39, 0.51, 2.16) 1s 1 normal forwards;
+}
+@-webkit-keyframes yellow-cat {
+	0% {
+	    -webkit-transform: translateY(38%);
+	            transform: translateY(38%);
+	}
+  	100% {
+	    -webkit-transform: translateY(0%);
+	            transform: translateY(0%);
+  	}
 }
 @keyframes yellow-cat {
 	0% {
-	    transform: translateY(38%);
+	    -webkit-transform: translateY(38%);
+	            transform: translateY(38%);
 	}
   	100% {
-	    transform: translateY(0%);
+	    -webkit-transform: translateY(0%);
+	            transform: translateY(0%);
   	}
 }

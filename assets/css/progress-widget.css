@@ -9,6 +9,7 @@
 .graduation {
 	/*background: #fff;*/
 	opacity: 0.9;
+	filter: alpha(opacity=90);
 }
 
 .progress {
@@ -32,7 +33,9 @@
 }
 
 .ruler-block {
-	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
 }
 
 .ruler {
@@ -59,7 +62,8 @@
 	color: #fff;
 	border-radius: 0 0 4px 4px;
 	cursor: pointer;
-	transition: .2s ease-in-out;
+	-webkit-transition: .2s ease-in-out;
+	        transition: .2s ease-in-out;
 	font-size: 17px;
 	z-index: 101;
 }

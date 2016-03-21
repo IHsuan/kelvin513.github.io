@@ -1,10 +1,10 @@
 #page6 {
-	background: #f4f4f4;
-	overflow: hidden;
+  background: #f4f4f4;
+  overflow: hidden;
 }
 
 .join-form input, .join-form textarea {
-	outline: none;
+  outline: none;
 }
 
 .join-form input[type="text"], .join-form input[type="number"] {
@@ -16,7 +16,7 @@
 }
 
 .join-form li {
-	display: block;
+  display: block;
 }
 
 .join-form li input[type="text"] {
@@ -35,26 +35,27 @@
 }
 
 .footer-animal {
-	margin-bottom: -4%;
+  margin-bottom: -4%;
 }
 
 .footer-animal img {
-	width: 15%;
+  width: 15%;
 }
 
 .form-control {
-	box-shadow: none;
+  box-shadow: none;
 }
 
 .send {
-	width: 100%;
+  width: 100%;
     border: none;
     border-radius: 3px;
     line-height: 2em;
     font-size: 16px;
-	background-color: #d2d2d2;
-	color: #4b4b4b;
-    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background-color: #d2d2d2;
+  color: #4b4b4b;
+    -webkit-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .send:hover {
