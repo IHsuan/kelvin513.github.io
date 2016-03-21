@@ -5,18 +5,36 @@ $(function(){
     $(".progress-bar").css("width", progress+'%')
   });
 
-  var bar_api = "https://taiwanbar.backme.tw/api/project_rewards/915/custom_fields.json?token=02e8a88dbdc1bdb87f85cb48e82e9f9d"
+  var bar_api = "https://taiwanbar.backme.tw/special_partner/taiwanbar-conf/fields_count"
   $.getJSON( bar_api ).done(function(data){
-    var taiwan_history_progress = data[0]["custom_field_options"][3]["backer_count"] / 500 *100;
-    var economic_bar_progress = data[0]["custom_field_options"][2]["backer_count"] / 500 *100;
-    var law_bar_progress = data[0]["custom_field_options"][1]["backer_count"] / 500 *100;
-    var firefight_bar_progress = data[0]["custom_field_options"][0]["backer_count"] / 500 *100;
-    $("#taiwan-history .progress-bar-fill").css("width", taiwan_history_progress);
-    $("#economic-bar .progress-bar-fill").css("width", economic_bar_progress);
-    $("#law-bar .progress-bar-fill").css("width", law_bar_progress);
-    $("#firefight-bar .progress-bar-fill").css("width", firefight_bar_progress);
 
-    console.log(data[0]["custom_field_options"]);
+    var votes = [
+      [ "taiwan-history-heart", data[0]["臺灣世界史"] ],
+      [ "economic-bar-heart", data[1]["經濟吧"] ],
+      [ "law-bar-heart", data[2]["法律吧"] ],
+      [ "firefight-bar-heart", data[3]["消防吧"] ]
+    ];
+
+    for (var i=0; i<4 ; i++) {
+      console.log(votes[i][0]);
+      console.log(votes[i][1]);
+      if (votes[i][1] > 100) {
+        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i>");
+      } else if (votes[i][1] > 200) {
+        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i>");
+        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i>");
+      } else if (votes[i][1] > 300) {
+        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i>");
+        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i>");
+        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i>");
+      } else if (votes[i][1] > 400) {
+        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i>");
+        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i>");
+        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i>");
+        $("#"+votes[i][0]).append("<i class='fa fa-heart'></i>");
+      }
+    }
+
   });
 
 });
