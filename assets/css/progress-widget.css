@@ -96,6 +96,10 @@
     ._ruler_anchor {
         margin-top: -11px;
     }
+    .distance {
+	    margin-top: 0px;
+	    font-size: 15px;
+	}
 }
 
 @media (max-width: 375px) {
@@ -110,6 +114,24 @@
     }
 }
 
+.distance {
+    margin-top: 7px;
+    font-size: 17px;
+}
 
+._ruler_succeed {
+	margin-left: 7px;
+}
 
+.distance_parent {
+	margin-top: 5px;
+}
 
+.distance_parent b {
+	margin: 0 5px;
+    color: #E23745;
+}
+
+.director-board {
+	width: 35px;
+}
