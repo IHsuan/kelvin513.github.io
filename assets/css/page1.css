@@ -53,7 +53,7 @@
 	._page1_icon_bottom_lg { display: none; }
 	._page1_icon {
 	    width: 74%;
-	    margin: 12% 0;
+	    margin: 9% 0;
 	}
 	.flex-bt {
 	    -webkit-box-pack: center;
@@ -65,7 +65,7 @@
 	    width: 70%;
 	    margin-bottom: 0;
 	}
-	.margin-top-50 { margin-top: 50px; }
+	.margin-top-120 { margin-top: 120px; }
 }
 
 @media (min-device-width:426px) {
