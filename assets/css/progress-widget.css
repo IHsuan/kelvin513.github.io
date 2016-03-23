@@ -126,7 +126,10 @@
 .distance_parent {
 	margin-top: 5px;
 	line-height: 1.4;	
-    background: rgba(255, 255, 255, 0.65);
+}
+
+.white-bg {
+	background: rgba(255, 255, 255, 0.70);
     display: inline;
 }
 
