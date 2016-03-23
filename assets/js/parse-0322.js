@@ -1,9 +1,9 @@
 $(function(){
   var progress_api = "https://taiwanbar.backme.tw/api/projects/219?token=02e8a88dbdc1bdb87f85cb48e82e9f9d";
   $.getJSON( progress_api ).done(function(data){
-    var progress = data["money_pledged"] / data["money_goal"] * 100;
+    var progress = data["money_pledged"] / data["money_goal"] * 100 % 100;
     $(".progress-bar").css("width", progress+'%');
-
+    console.log(progress);
     var already_succeed = parseInt(data["money_pledged"] / data["money_goal"]);
 
     var next_show = data["money_goal"] - (data["money_pledged"] % data["money_goal"]);

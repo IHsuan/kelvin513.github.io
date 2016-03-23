@@ -42,11 +42,8 @@
 .animals-3 { margin-left: -5%; }
 .animals-4 { margin-left: -4%; }
 
-@media (max-width: 768px) {
-	.animals {
-		bottom: -8%;
-	}
-}
+@media (max-width: 768px) { .animals { bottom: -8%; } }
+@media (max-width: 1110px) { .animals { bottom: -9%; } }
 
 @media (max-width: 426px) {
 	.animals { bottom: -3%; left:0; }
@@ -68,6 +65,7 @@
 	    width: 70%;
 	    margin-bottom: 0;
 	}
+	.margin-top-50 { margin-top: 50px; }
 }
 
 @media (min-device-width:426px) {
