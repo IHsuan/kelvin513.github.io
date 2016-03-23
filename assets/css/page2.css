@@ -302,6 +302,6 @@ ul.ChatLog {
     }
 }
 
-@media (max-width: 2560px) {
+@media (min-width: 1920px) {
     .ChatLog { width: 70%; left:15%; }
 }
