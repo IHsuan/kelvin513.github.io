@@ -9,7 +9,7 @@ $(function(){
     var next_show = data["money_goal"] - (data["money_pledged"] % data["money_goal"]);
 
     $(".distance_parent").html("<img class='director-board white-bg' src='assets/img/導演板.svg'/><span class='white-bg'>已成功集資 " + already_succeed +"/50 個節目！距離下一個節目還有<b> $" + next_show + " </b>元</span>");
-    $(".distance_parent").html("已經有 " + 183 + " 人支持");
+    
   });
 
   var bar_api = "https://taiwanbar.backme.tw/special_partner/taiwanbar-conf/fields_count"
@@ -40,6 +40,19 @@ $(function(){
       } else if (votes[i][1] > 100) {
         $("#"+votes[i][0]).append("<i class='fa fa-heart'></i>");
       }
+    }
+
+    var vote = [
+      [ "taiwan-history-vote", data[0]["臺灣世界史"] ],
+      [ "economic-bar-vote", data[1]["經濟吧"] ],
+      [ "law-bar-vote", data[2]["法律吧"] ],
+      [ "firefight-bar-vote", data[3]["消防吧"] ]
+    ];
+
+    for (var i=0; i<4 ; i++) {
+      console.log(vote[i][0]);
+      console.log(vote[i][1]);
+      $("#"+vote[i][0]).html("已經有 " + vote[i][1] + " 人支持");
     }
 
   });

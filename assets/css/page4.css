@@ -89,6 +89,7 @@
 	#page4 .h-30 {
 		height: 0;
 	}
+	.you-do-it { height: 342px;}
 }
 
 @media (max-width: 375px) {
@@ -127,6 +128,7 @@
 
 .popular {
     color: #ACACAC;
+    margin-bottom: 5px;
 }
 
 .vote_num {
@@ -139,7 +141,7 @@
 }
 
 @media (min-width: 1024px) {
-    .you-do-it { height: 420px;}
+    .you-do-it { height: 445px;}
 }
 @media (min-width: 2560px) {
     .you-do-it { height: 470px;}
