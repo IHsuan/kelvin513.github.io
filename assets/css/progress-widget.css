@@ -127,7 +127,6 @@
 }
 
 .distance_parent {
-	margin-top: 5px;
 	line-height: 1.4;
 	letter-spacing: 0.5px;
 }
@@ -135,6 +134,8 @@
 .white-bg {
 	background: #fff;
     display: inline;
+    line-height: 35px;
+    height: 35px;
 }
 
 .distance_parent b {

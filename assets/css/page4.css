@@ -126,8 +126,12 @@
 }
 
 .popular {
-	margin-bottom: 20px;
     color: #ACACAC;
+}
+
+.vote_num {
+	color: #acacac;
+	margin-bottom: 20px;
 }
 
 .popular i {

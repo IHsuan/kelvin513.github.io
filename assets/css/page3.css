@@ -37,7 +37,7 @@
   left: 18px;
   height: 93.5%;
   width: 4px;
-  background: #fff;
+  background: #f4f4f4;
 }
 #cd-timeline:after {
   /* this is the vertical line */
@@ -187,7 +187,7 @@
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
-  background: #f4f4f4;
+  background: #fff;
   border-radius: 0.25em;
   padding: 1em;
 }
