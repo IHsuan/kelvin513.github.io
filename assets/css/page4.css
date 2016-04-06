@@ -55,11 +55,11 @@
 
 ._show_succeed {
 	border-radius: 3px;
-	color: #fff;
-	padding: 10px 25px;
-	font-size: 15px;
-	background: #E13745;	
-	border: 1px solid #d0d0d0;
+	color: #53B670;
+    padding: 10px 25px;
+    font-size: 15px;
+    background: #F4F4F4;
+    border: 1px solid #F4F4F4;
 	width: 150px;
     margin: 0 auto 30px auto;
     display: inline-block;
@@ -69,7 +69,6 @@
     -ms-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     position: relative;
     top: 8px;
-    font-weight: 600;
 }
 
 @media (max-width: 426px) {
