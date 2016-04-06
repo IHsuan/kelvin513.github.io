@@ -235,7 +235,7 @@
   height: 0;
   width: 0;
   border: 7px solid transparent;
-  border-right: 7px solid #f4f4f4;
+  border-right: 7px solid #fff;
 }
 
 @media only screen and (min-width: 768px) {
@@ -263,7 +263,7 @@
     top: 24px;
     left: 100%;
     border-color: transparent;
-    border-left-color: #f4f4f4;
+    border-left-color: #fff;
   }
   .cd-timeline-content .cd-read-more {
     float: left;
@@ -290,7 +290,7 @@
     left: auto;
     right: 100%;
     border-color: transparent;
-    border-right-color: #f4f4f4;
+    border-right-color: #fff;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
     float: right;
