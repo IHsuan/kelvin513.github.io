@@ -20,6 +20,18 @@
   color: #535353;
 }
 
+@media (max-width: 320px) {
+  .fancybox {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 375px) {
+  .fancybox {
+    margin-top: 70px;
+  }
+}
+
 #panel {
   display: none;
   position: fixed;
