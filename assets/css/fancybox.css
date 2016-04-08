@@ -44,7 +44,7 @@
   background-color: rgba(72, 72, 72, 0.25);
 }
 
-#panel #close {
+#panel .fancy-close {
   position: absolute;
   z-index: 900;
   top: 0em;
@@ -58,7 +58,12 @@
   font-size: 20px;
 }
 
-#close .fa:hover {
+#panel .bottom-close {
+  position: static;
+  width: 100%;
+}
+
+.fancy-close .fa:hover {
   color: #8a8a8a;
 }
 

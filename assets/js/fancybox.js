@@ -10,7 +10,7 @@ $(document).on('click','#closeArea', function(){
 	$('body').css("overflow", "scroll");
 });
 
-$(document).on('click','#close', function(){
+$(document).on('click','.fancy-close', function(){
 	$('#panel').css("display", "none");
 	$('#infoContainer').removeClass("fade-in");
 	$('body').css("overflow", "scroll");
