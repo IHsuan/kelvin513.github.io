@@ -71,7 +71,7 @@
 #panel #infoContainer {
   position: relative;
   z-index: 900;
-  width: 530px;
+  width: 600px;
   opacity: 0;
   background-color: #fff;
   margin: 4em auto;
