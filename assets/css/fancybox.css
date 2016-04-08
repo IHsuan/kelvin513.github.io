@@ -94,6 +94,12 @@
   max-width: 100%;
 }
 
+@media (max-width: 426px) {
+  #panel #infoContainer {
+    height: 70%;
+  }
+}
+
 #infoContainer.fade-in{
   animation: open_dialog .2s ease-in-out forwards;
 }
@@ -108,6 +114,7 @@
 
 .q-and-a img {
   width: 300px;
+  max-width: 100%;
 }
 
 .q-and-a .ans {
