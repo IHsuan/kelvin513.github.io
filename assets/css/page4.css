@@ -9,6 +9,7 @@
 	text-align: center;
 	margin: 0 15px;
 	border-radius: 3px;
+	position: relative;
 }
 
 .show img {
@@ -143,4 +144,47 @@
 @media (min-width: 2560px) {
     .you-do-it { height: 470px;}
     ._you-do-it_content { margin-bottom: 45px; }
+}
+
+
+body {
+  background: #f0f0f0;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  margin: 50px auto;
+  width: 280px;
+  height: 370px;
+  background: white;
+  border-radius: 10px;
+  position: relative;
+  z-index: 90;
+}
+
+.ribbon-wrapper-green {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.ribbon-green {
+  color: #333;
+  text-align: center;
+  -webkit-transform: rotate(45deg);
+  -moz-transform:    rotate(45deg);
+  -ms-transform:     rotate(45deg);
+  -o-transform:      rotate(45deg);
+  position: relative;
+  padding: 7px 0;
+  left: -14px;
+  top: 20px;
+  width: 152px;
+  background-color: #6ED38B;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
 }
