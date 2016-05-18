@@ -60,6 +60,24 @@
 }
 
 .send:hover {
-    color: #fff;
-    background: #4D98D1;
+  color: #fff;
+  background: #4D98D1;
 }
+
+.join {
+  width: 20%;
+  -webkit-flex-basis: 305px;
+        -ms-flex-preferred-size: 305px;
+            flex-basis: 305px;
+
+}
+
+.wrap {
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+
+
+

@@ -156,7 +156,7 @@
   z-index: 90;
 }
 
-.ribbon-wrapper-green {
+.ribbon-wrapper {
   width: 100px;
   height: 100px;
   overflow: hidden;
@@ -165,7 +165,7 @@
   right: 0px;
 }
 
-.ribbon-green {
+.ribbon {
   color: #333;
   text-align: center;
   -webkit-transform: rotate(45deg);
@@ -177,8 +177,27 @@
   left: -14px;
   top: 20px;
   width: 152px;
-  background-color: #6ED38B;
   color: #fff;
   font-weight: 600;
   font-size: 16px;
 }
+
+.ribbon-green {
+	background-color: #6ED38B;
+}
+
+.ribbon-orange {
+	background-color: #f5844e
+}
+
+.ribbon-yellow {
+	background-color: #ffd263;
+}
+
+.ribbon img {
+	width: 19px;
+	margin: 0;
+}
+
+
+
