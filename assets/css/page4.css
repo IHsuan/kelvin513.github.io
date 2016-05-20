@@ -28,6 +28,24 @@
 	padding: 0 15px;
 }
 
+._show_content img {
+	display: inline-block;
+	width:15%;
+	vertical-align: top;
+	margin-left: 2px;
+	cursor: pointer;
+	opacity: .65;
+	transition: all .2s;
+}
+
+._show_content img:hover {
+	opacity: 1;
+}
+
+._show_content h4 {
+	display: inline-block; width:80%; vertical-align: top; text-align: left;
+}
+
 ._show_content_long {
 	margin-bottom: 40px;
 }
