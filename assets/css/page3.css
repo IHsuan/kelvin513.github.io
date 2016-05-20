@@ -403,13 +403,17 @@
 .cd-timeline-content .egg-cake { height: 70px; margin: -10px -9px; }
 
 #expand {
-  margin: 25px 0;
-  opacity: 0.85;
+  margin: -25px 0 25px 0;
+  opacity: 0.65;
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
   cursor: pointer;
   text-align: center;
+}
+
+#expand img {
+  width: 50px;
 }
 
 #expand:hover {
