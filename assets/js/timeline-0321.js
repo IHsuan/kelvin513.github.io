@@ -19,6 +19,6 @@ jQuery(document).ready(function($){
 });
 
 $(document).on('click', '#expand', function(){
-  $('#cd-timeline').slideDown(1000);
+  $('.cd-timeline-block:nth-child(n+1)').slideDown(1000);
   $('#expand').css("display", "none");
 });
