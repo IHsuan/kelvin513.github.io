@@ -28,22 +28,27 @@
 	padding: 0 15px;
 }
 
-._show_content img {
+._show_content .play {
 	display: inline-block;
 	width:15%;
 	vertical-align: top;
-	margin-left: 2px;
+	margin: 0 0 15px 0;
 	cursor: pointer;
 	opacity: .65;
 	transition: all .2s;
 }
 
-._show_content img:hover {
+._show_content .play-disable {
+	opacity: 1;
+	cursor: default;
+}
+
+._show_content .play:hover {
 	opacity: 1;
 }
 
 ._show_content h4 {
-	display: inline-block; width:80%; vertical-align: top; text-align: left;
+	display: inline-block; width:100%; vertical-align: top;
 }
 
 ._show_content_long {
@@ -157,7 +162,7 @@
 }
 
 @media (min-width: 1024px) {
-    .you-do-it { height: 445px;}
+    .you-do-it { height: 503px;}
 }
 @media (min-width: 2560px) {
     .you-do-it { height: 470px;}

@@ -155,7 +155,7 @@ ul.ChatLog {
 }
 
 .chat-tab-content {
-  height: 550px;
+  height: 660px;
   position: relative;
 }
 
@@ -321,12 +321,12 @@ ul.ChatLog {
 
 .q-and-a-img {
   max-width: 100%;
-  width: 650px;
-  margin-top: 50px;
+  width: 795px;
+  margin-top: 30px;
 }
 
 .q-and-a-h5 {
-  width: 650px;
-  margin: auto;
+  width: 795px;
+  margin: 20px auto;
 }
 
