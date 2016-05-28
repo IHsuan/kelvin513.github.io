@@ -4,11 +4,11 @@ $(function(){
     var progress = data["money_pledged"] / data["money_goal"] * 100 % 100;
     $(".progress-bar").css("width", progress+'%');
     console.log(progress);
-    var already_succeed = parseInt(data["money_pledged"] / data["money_goal"]);
+    var already_succeed = parseInt(data["money_pledged"] / data["money_goal"]+1);
 
     var next_show = data["money_goal"] - (data["money_pledged"] % data["money_goal"]);
 
-    $(".distance_parent").html("<img class='director-board white-bg' src='assets/img/導演板.svg'/><span class='white-bg'>已成功集資 " + already_succeed +"/50 個節目！距離下一個節目還有<b> $" + next_show + " </b>元</span>");
+    $(".distance_parent").html("<img class='director-board white-bg' src='assets/img/導演板.svg'/><span class='white-bg'>已成功集資 " + already_succeed + "/50 個節目！距離下一個節目還有<b> $" + next_show + " </b>元</span>");
     
   });
 

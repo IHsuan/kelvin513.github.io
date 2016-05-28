@@ -217,10 +217,19 @@
 	background-color: #ffd263;
 }
 
+.ribbon-blue {
+	background-color: #3FA9F5;
+}
+
 .ribbon img {
 	width: 19px;
 	margin: 0;
 }
 
+.ribbon img .playing {
+	width: 16px;
+}
 
-
+.RC {
+	color: #4D98D1;
+}
