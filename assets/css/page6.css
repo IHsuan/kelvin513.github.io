@@ -78,6 +78,9 @@
           flex-wrap: wrap;
 }
 
-
+.sponsor img {
+  width: 250px;
+  height: 250px;
+}
 
 
